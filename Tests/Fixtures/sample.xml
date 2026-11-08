@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="news.1">
+    <display-name>BBC News HD</display-name>
+    <display-name>BBC News</display-name>
+  </channel>
+  <channel id="sports.1">
+    <display-name>Sky Sports Main Event</display-name>
+  </channel>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="news.1">
+    <title>Noon News</title>
+    <desc>The midday bulletin.</desc>
+    <category>News</category>
+  </programme>
+  <programme start="20260101130000 +0000" stop="20260101140000 +0000" channel="news.1">
+    <title>Afternoon News</title>
+  </programme>
+  <programme start="20260101120000 +0000" stop="20260101133000 +0000" channel="sports.1">
+    <title>Match Day</title>
+  </programme>
+</tv>

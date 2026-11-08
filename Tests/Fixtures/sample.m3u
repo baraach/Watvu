@@ -1,0 +1,10 @@
+#EXTM3U url-tvg="https://example.com/guide.xml" catchup-days="7"
+#EXTINF:-1 tvg-id=news.1 tvg-logo=https://example.com/news.png group-title="News",BBC News HD
+#EXTVLCOPT:http-user-agent=ExamplePlayer/1.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Kodi/21&Referer=https://example.com/
+https://example.com/live/news.m3u8
+#EXTGRP:Sports
+#EXTINF:-1,Sky Sports
+https://example.com/live/sports.m3u8
+#EXTINF:-1 group-title="Movies",A Movie
+relative/movie.mp4
